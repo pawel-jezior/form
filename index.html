@@ -12,7 +12,7 @@
   <body>
     <main class="main">
       <h1>Mój formularz</h1>
-      <form class="form">
+      <form action="https://dev.cotenfrontend.pl" method="POST" class="form">
         <p>
           <label for="firstName">Imię:</label>
           <input
@@ -34,93 +34,88 @@
           </label>
         </p>
         <p>
-            <label
-              >Numer buta:
-              <input
-                class="form__input"
-                type="number"
-                id="shoeNumber"
-                name="shoeNumber"
-                placeholder="Wprowadź swój numer buta"
-              />
-            </label>
-          </p>
-          <p>
-            <label
-              >Numer telefonu:
-              <input
-                class="form__input"
-                type="tel"
-                id="phoneNumber"
-                name="phoneNumber"
-                placeholder="Wprowadź swój numer telefonu"
-              />
-            </label>
-          </p>
-          <p>
-            <label
-              >Adres email:
-              <input
-                class="form__input"
-                type="email"
-                id="emailAddress"
-                name="emailAddress"
-                placeholder="Wprowadź swój adres email"
-              />
-            </label>
-          </p>
-          <p>
-            <label
-              >Range:
-              <input
-                class="form__input"
-                type="range"
-                min="0"
-                max="100"
-                step="10"
-                id="range"
-                name="range"
-              />
-            </label>
-          </p>
-          <p>
-            <label
-              >Hasło:
-              <input
-                class="form__input"
-                type="password"
-                id="password"
-                name="password"
-                placeholder="Wpisz swoje hasło"
-              />
-            </label>
-          </p>
-          <p>
-            <label
-              >Plik:
-              <input
-                class="form__input"
-                type="file"
-                id="file"
-                name="file"
-              />
-            </label>
-          </p>
-          <p>
-            <label for="band">Wybierz jedno: </label>
-            <select name="band" id="band">
-                <option value="linkinPark">Linkin Park</option>
-                <option value="metallica">Metallica</option>
-                <option value="kazikKult">Kazik / Kult</option>
-                <option value="rammstein">Rammstein</option>
-            </select>
-          </p>
-          <p>
-            <label for="yourStory"
-              >Miejsce na wierszyk (textarea):
-              <textarea id="yourStory" name="yourStory"></textarea>
-            </label>
-          </p>
+          <label
+            >Numer buta:
+            <input
+              class="form__input"
+              type="number"
+              id="shoeNumber"
+              name="shoeNumber"
+              placeholder="Wprowadź swój numer buta"
+            />
+          </label>
+        </p>
+        <p>
+          <label
+            >Numer telefonu:
+            <input
+              class="form__input"
+              type="tel"
+              id="phoneNumber"
+              name="phoneNumber"
+              placeholder="Wprowadź swój numer telefonu"
+            />
+          </label>
+        </p>
+        <p>
+          <label
+            >Adres email:
+            <input
+              class="form__input"
+              type="email"
+              id="emailAddress"
+              name="emailAddress"
+              placeholder="Wprowadź swój adres email"
+            />
+          </label>
+        </p>
+        <p>
+          <label
+            >Range:
+            <input
+              class="form__input"
+              type="range"
+              min="0"
+              max="100"
+              step="10"
+              id="range"
+              name="range"
+            />
+          </label>
+        </p>
+        <p>
+          <label
+            >Hasło:
+            <input
+              class="form__input"
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Wpisz swoje hasło"
+            />
+          </label>
+        </p>
+        <p>
+          <label
+            >Plik:
+            <input class="form__input" type="file" id="file" name="file" />
+          </label>
+        </p>
+        <p>
+          <label for="band">Wybierz jedno: </label>
+          <select name="band" id="band">
+            <option value="linkinPark">Linkin Park</option>
+            <option value="metallica">Metallica</option>
+            <option value="kazikKult">Kazik / Kult</option>
+            <option value="rammstein">Rammstein</option>
+          </select>
+        </p>
+        <p>
+          <label for="yourStory"
+            >Miejsce na wierszyk (textarea):
+            <textarea id="yourStory" name="yourStory"></textarea>
+          </label>
+        </p>
         <fieldset>
           <legend>Adres</legend>
           <p>
@@ -177,8 +172,8 @@
         </p>
 
         <p>
-            <input type="submit" value="SEND">
-          </p>
+          <input type="submit" value="SEND" />
+        </p>
       </form>
     </main>
   </body>
