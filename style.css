@@ -1,0 +1,19 @@
+body {
+  background: brown;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form {
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+}
+
+.main {
+}
