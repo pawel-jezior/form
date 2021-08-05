@@ -15,46 +15,150 @@
       <form class="form">
         <p>
           <label for="firstName">Imię:</label>
-          <input class="form__input" id="firstName" name="firstName" placeholder="Wprowadź swoje imię"/>
+          <input
+            class="form__input"
+            id="firstName"
+            name="firstName"
+            placeholder="Wprowadź swoje imię"
+          />
         </p>
         <p>
           <label
             >Nazwisko:
-            <input class="form__input" id="lastName" name="lastName" placeholder="Wprowadź swoje nazwisko"/>
+            <input
+              class="form__input"
+              id="lastName"
+              name="lastName"
+              placeholder="Wprowadź swoje nazwisko"
+            />
           </label>
         </p>
+        <p>
+            <label
+              >Numer buta:
+              <input
+                class="form__input"
+                type="number"
+                id="shoeNumber"
+                name="shoeNumber"
+                placeholder="Wprowadź swój numer buta"
+              />
+            </label>
+          </p>
+          <p>
+            <label
+              >Numer telefonu:
+              <input
+                class="form__input"
+                type="tel"
+                id="phoneNumber"
+                name="phoneNumber"
+                placeholder="Wprowadź swój numer telefonu"
+              />
+            </label>
+          </p>
+          <p>
+            <label
+              >Adres email:
+              <input
+                class="form__input"
+                type="email"
+                id="emailAddress"
+                name="emailAddress"
+                placeholder="Wprowadź swój adres email"
+              />
+            </label>
+          </p>
+          <p>
+            <label
+              >Range:
+              <input
+                class="form__input"
+                type="range"
+                min="0"
+                max="100"
+                step="10"
+                id="range"
+                name="range"
+              />
+            </label>
+          </p>
+          <p>
+            <label
+              >Hasło:
+              <input
+                class="form__input"
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Wpisz swoje hasło"
+              />
+            </label>
+          </p>
+          <p>
+            <label
+              >Plik:
+              <input
+                class="form__input"
+                type="file"
+                id="file"
+                name="file"
+              />
+            </label>
+          </p>
         <fieldset>
-            <legend>Adres</legend>
-            <p>
-                <label
-                  >Miasto:
-                  <input class="form__input" id="city" name="city" placeholder="Wprowadź swoje miasto"/>
-                </label>
-              </p>
-              <p>
-                <label
-                  >Ulica:
-                  <input class="form__input" id="street" name="street" placeholder="Wprowadź swoją ulicę"/>
-                </label>
-              </p>
+          <legend>Adres</legend>
+          <p>
+            <label
+              >Miasto:
+              <input
+                class="form__input"
+                id="city"
+                name="city"
+                placeholder="Wprowadź swoje miasto"
+              />
+            </label>
+          </p>
+          <p>
+            <label
+              >Ulica:
+              <input
+                class="form__input"
+                id="street"
+                name="street"
+                placeholder="Wprowadź swoją ulicę"
+              />
+            </label>
+          </p>
         </fieldset>
         <fieldset>
-            <legend>Ulubiony kolor</legend>
-            <p>
-                <label><input name="color" type="radio" value="red"> Czerwony</label>
-            </p>
-            <p>
-                <label><input name="color" type="radio" value="blue"> Niebieski</label>
-            </p>
-            <p>
-                <label><input name="color" type="radio" value="green"> Zielony</label>
-            </p>
-            <p>
-                <label><input name="color" type="radio" value="yellow"> Żółty</label>
-            </p>
+          <legend>Ulubiony kolor</legend>
+          <p>
+            <label
+              ><input name="color" type="radio" value="red" /> Czerwony</label
+            >
+          </p>
+          <p>
+            <label
+              ><input name="color" type="radio" value="blue" /> Niebieski</label
+            >
+          </p>
+          <p>
+            <label
+              ><input name="color" type="radio" value="green" /> Zielony</label
+            >
+          </p>
+          <p>
+            <label
+              ><input name="color" type="radio" value="yellow" /> Żółty</label
+            >
+          </p>
         </fieldset>
         <p>
-            <label><input name="agreement" type="checkbox" value="rodo-agree"> RODO</label>
+          <label
+            ><input name="agreement" type="checkbox" value="rodo-agree" />
+            RODO</label
+          >
         </p>
       </form>
     </main>
